@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+body{
+    background-color: black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Kanit', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: rgb(0, 128, 60);
+    color: aliceblue;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.brand img{
+    height:63px;
+    width:63px;
+    border-radius: 80px;
+    padding: 0 8px;
+    padding-left: 2px;
+    
+    
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+
+}
+
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    
+    width: 90%;
+    margin: 23px auto;
+    border-radius: 10px;
+    padding: 20px;
+    background-image: url(3TjN.gif);
+    background-position: center;
+    background-size:79%;
+    
+    
+}
+.bottom{
+    position: sticky;
+    height: 90px;
+    background-color: #000000;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   background-image: url(ccmusicbottomgif.gif.gif);
+}
+
+
+#ProgressBar{
+    width: 80vw;
+    text-align: center;
+}
+
+.audioItem{
+    height: 30px;
+    display: flex;
+    width: 80%;
+    margin: 12px;
+    padding: 10px;
+}
+
+.audioItem:hover{
+    background-color: rgb(0, 128, 60);
+    color: black;
+    border-radius: 10px;
+    z-index: 10px;
+}
+
+.timestamp{
+    margin: 0 23px;
+   
+}
+.timestamp i{
+  
+    cursor: pointer;
+}
+
+.AudioList1 h1{
+    color: black;
+}
+
+.AudioList1{
+    margin-left: 782px;
+    
+}
+
+.audioItem1{
+    height: 30px;
+    display: flex;
+    width: 80%;
+    margin: 12px;
+    padding: 10px;
+    margin-left: 40px;
+}
+
+.audioItem1:hover{
+    background-color: rgb(0, 128, 60);
+    color: black;
+    border-radius: 10px;
+    z-index: 10px;
+}
+.audioItemContainer{
+    margin-top: 74px;
+}
+
+
+

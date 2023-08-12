@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music App</title>
+    <link rel="stylesheet" href="music.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class = "brand"><img src="ccmusiclogo3.jpg" alt="Music">Music App</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class = "container">
+        
+            <div class="AudioList">
+                
+                <h1> Top 10 audio sounds </h1>
+                <div class="audioItemContainer">
+                <div class="audioItem" style="justify-content: space-between; align-items: center;">
+                    
+                    <span class ="audioname">music 1</span>
+                    <span class="audiolistplay"><span class="timestamp">1:00</span><i id='0' class="uil audioitemplay uil-play"></i></span>
+                </div>
+                <div class="audioItem" style="justify-content: space-between; align-items: center;">
+                    
+                    <span class ="audioname">music 2</span>
+                    <span class="audiolistplay"><span class="timestamp">1:00</span><i id="1" class="uil audioitemplay uil-play"></i></span>
+                </div>
+                <div class="audioItem" style="justify-content: space-between; align-items: center;">
+                    
+                    <span class ="audioname">music 3</span>
+                    <span class="audiolistplay"><span class="timestamp">1:00</span><i id="2" class="uil audioitemplay uil-play"></i></span>
+                </div>
+                <div class="audioItem" style="justify-content: space-between; align-items: center;">
+                   
+                    <span class ="audioname">music 4</span>
+                    <span class="audiolistplay"><span class="timestamp">1:00</span><i id="3" class="uil audioitemplay uil-play"></i></span>
+                </div>
+                <div class="audioItem" style="justify-content: space-between; align-items: center;">
+                    
+                    <span class ="audioname">music 5</span>
+                    <span class="audiolistplay"><span class="timestamp">1:00</span><i id="4" class="uil audioitemplay uil-play"></i></span>
+                </div>
+              
+                </div>
+               
+            </div>
+
+            <div class="AudioList1">
+                <h1> _________________ </h1>
+                <div class="audioItemContainer">
+                <div class="audioItem1" style="justify-content: space-between; align-items: center;">
+                    <img>
+                    <span class ="audioname">music 6</span>
+                    <span class="audiolistplay"><span class="timestamp">1:00</span><i id="0" class="uil audioitemplay uil-play"></i></span>
+                </div>
+                <div class="audioItem1" style="justify-content: space-between; align-items: center;">
+                    <img>
+                    <span class ="audioname">music 7</span>
+                    <span class="audiolistplay"><span class="timestamp">1:00</span><i id="1" class="uil audioitemplay uil-play"></i></span>
+                </div>
+                <div class="audioItem1" style="justify-content: space-between; align-items: center;">
+                    <img>
+                    <span class ="audioname">music 8</span>
+                    <span class="audiolistplay"><span class="timestamp">1:00</span><i id="2" class="uil audioitemplay uil-play"></i></span>
+                </div>
+                <div class="audioItem1" style="justify-content: space-between; align-items: center;">
+                    <img>
+                    <span class ="audioname">music 9</span>
+                    <span class="audiolistplay"><span class="timestamp">1:00</span><i id="3" class="uil audioitemplay uil-play"></i></span>
+                </div>
+                <div class="audioItem1" style="justify-content: space-between; align-items: center;">
+                    <img>
+                    <span class ="audioname">music 10</span>
+                    <span class="audiolistplay"><span class="timestamp">1:00</span><i id="4" class="uil audioitemplay uil-play"></i></span>
+                </div>
+           
+                </div>
+              
+            </div>
+        
+            
+        
+        <div class="AudioBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="ProgressBar" min="0" value = "0" max="100">
+        <div class = "icons">
+            <i class ='uil uil-step-backward' id="previous" style="font-size: 32px"></i>
+            <i class ='uil uil-play' id="masterplay" style="font-size: 32px"></i>
+            <i class ='uil uil-skip-forward' id="next" style="font-size: 32px"></i>
+        </div>
+    </div>
+    <script src = "music.js"></script>
+</body>
+</html>
