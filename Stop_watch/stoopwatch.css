@@ -1,0 +1,63 @@
+body {
+    background: black;
+}
+
+.container,.timer-display,.buttons button{
+    background-color: black;
+    border-color: aqua;
+    border-style: solid;
+    border-width: 2px;
+    z-index: 10px;
+}
+.container {
+    width: 40%;
+    min-width: 500px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 20px 0;
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+
+.timer-display {
+    position:static;
+    width: 80%;
+    left: 4%;
+    font-family: 'Roboto mono', monospace;
+    color: aqua;
+    font-size: 30px;
+    padding: 40px;
+    display: flex;
+    margin-left: 20px ;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+
+.buttons {
+    width: 90%;
+    margin: 60px auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons button {
+    width: 120px;
+    height: 45px;
+    color: aqua;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+
+
+.buttons button:hover {
+    color: black;
+    background-color: aqua;
+}

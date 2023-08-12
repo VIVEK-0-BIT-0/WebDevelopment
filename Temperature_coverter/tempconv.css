@@ -1,0 +1,46 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.converter-body{
+	width: 500px;
+	height: 300px;
+	background-color: black;
+	border-radius: 10px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+span{
+	color: azure;
+	font-weight: 300;
+}
+.converter-title{
+	color: yellow;
+	text-align: center;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	margin: 13px 0px;
+	font-size: 45px;
+}
+input{
+	height: 30px;
+	width: 180px;
+	text-align: center;
+	border: 1px solid black;
+	background-color: yellowgreen;
+}
+#input{
+	margin-left: 60px;
+	margin-top: 15px;
+}
+#inputType,#resultType{
+	height: 30px;
+	width: 185px;
+	border: 1px solid black;
+	margin-top: 20px;
+	margin-left: 60px;
+}
+#resultType{
+	margin-left: 14px;
+}
